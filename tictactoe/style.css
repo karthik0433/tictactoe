@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: yellow;
+    color: blue;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game-box {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
+    cursor: pointer;
+    background-color: white;
+}
+
+.message-container {
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+#new-game-btn,#restart-game{
+    width : 8rem;
+    background-color: black;
+    color : white;
+    height: 5vmax;
+    font-size: 1.25rem;
+}
